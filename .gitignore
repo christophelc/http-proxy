@@ -1,0 +1,14 @@
+# general
+*~
+*.log
+.DS_Store
+
+# SBT
+dist
+project/boot
+project/target
+project/plugins/target
+target
+.target
+.ensime
+.ensime_cache/*
