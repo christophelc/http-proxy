@@ -18,8 +18,10 @@ lazy val root = (project in file("."))
       "org.http4s"      %% "http4s-dsl"          % Http4sVersion,
       "org.specs2"     %% "specs2-core"          % Specs2Version % "test",
       "ch.qos.logback"  % "logback-classic"     % LogbackVersion,
+      "org.scalaz.stream" %% "scalaz-stream" % "0.8.6",
       "com.typesafe" % "config" % "1.3.2",
-      "org.scalaz.stream" %% "scalaz-stream" % "0.8.6"      
+      "com.github.pureconfig" %% "pureconfig" % "0.9.1",
+      "com.github.andr83" %% "scalaconfig" % "0.4"
     )
   )
 

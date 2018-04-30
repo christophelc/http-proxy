@@ -1,1 +1,19 @@
-Do not work with redirect...
+Configurable proxy:
+
+You call the proxy and it will reroute the request to the final server after adding 
+some extra headers.
+
+You can define different environment and associate several users for each environment.
+A user allows you to define specific headers like Bearer.
+
+You can switch between environments and users through the api.
+
+
+
+Please modify application.conf to suit your needs.
+use https at your own risk since security controls have been disabled.
+
+TODO:
+- add certificate controls for https
+- add json to api
+- change Exception to Either type
